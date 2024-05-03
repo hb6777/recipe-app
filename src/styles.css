@@ -1,0 +1,47 @@
+.nav-container{
+    background-color: orange; 
+    margin-bottom:30px;
+    font-weight:bold;
+    font-size: 30px; 
+    display:flex;
+    border:0px solid black;
+}
+
+  .logo{
+    width:300px;
+    height:30px;
+    border:0px solid black;
+}
+  
+ .search-bar{
+    width:500px;
+    height:30px; 
+    margin-bottom: 10px; 
+    border-radius: 8px;  
+    font-size: 15px; 
+    position: relative; 
+    left:100px;
+    padding:13px;   
+}
+ 
+input[type=text] { 
+    border: 3px solid #ccc;
+    /* -webkit-transition: 0.5s;
+    transition: 0.5s; */
+    outline: none; 
+  }
+ 
+.nav-link-container{
+    border:0px solid black;  
+    text-align: right; 
+    width:200px; 
+    position: relative;
+    left:200px;
+}
+
+ .nav-link{   
+    padding-right:30px; 
+    font-size: 15px;     
+}
+
+
